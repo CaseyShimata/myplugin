@@ -1,0 +1,1 @@
+<?php //Avoid public view of current folders contents.
