@@ -10,6 +10,7 @@ function myplugin_register_settings(){
         'myplugin_options',
         'myplugin_callback_validate_options'
     );
+
     add_settings_section(
         'myplugin_section_login',
         'Customize Login Page',
@@ -31,7 +32,6 @@ function myplugin_register_settings(){
         'myplugin_section_login',
         [ 'id' => 'custom_url', 'label' => 'Custom URL for the login logo link' ]
     );
-
     add_settings_field(
         'custom_title',
         'Custom Title',
@@ -40,7 +40,6 @@ function myplugin_register_settings(){
         'myplugin_section_login',
         [ 'id' => 'custom_title', 'label' => 'Custom title attribute for the logo link' ]
     );
-
     add_settings_field(
         'custom_style',
         'Custom Style',
@@ -49,7 +48,6 @@ function myplugin_register_settings(){
         'myplugin_section_login',
         [ 'id' => 'custom_style', 'label' => 'Custom CSS for the Login screen' ]
     );
-
     add_settings_field(
         'custom_message',
         'Custom Message',
@@ -58,7 +56,6 @@ function myplugin_register_settings(){
         'myplugin_section_login',
         [ 'id' => 'custom_message', 'label' => 'Custom text and/or markup' ]
     );
-
     add_settings_field(
         'custom_footer',
         'Custom Footer',
@@ -67,7 +64,6 @@ function myplugin_register_settings(){
         'myplugin_section_admin',
         [ 'id' => 'custom_footer', 'label' => 'Custom footer text' ]
     );
-
     add_settings_field(
         'custom_toolbar',
         'Custom Toolbar',
@@ -76,7 +72,6 @@ function myplugin_register_settings(){
         'myplugin_section_admin',
         [ 'id' => 'custom_toolbar', 'label' => 'Remove new post and comment links from the Toolbar' ]
     );
-
     add_settings_field(
         'custom_scheme',
         'Custom Scheme',
