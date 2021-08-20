@@ -1,5 +1,5 @@
 <?php // MyPlugin - Settings Page
-
+// disable direct file access
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
@@ -8,7 +8,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 function myplugin_display_settings_page() {
 
     // check if user is allowed access
-    if ( ! current_user_can( 'manage_options' ) ) return;
+    if ( ! current_user_can( 'manage_options' ) ) {
+        return;
+    }
 
     ?>
 
@@ -33,5 +35,4 @@ function myplugin_display_settings_page() {
     </div>
 
     <?php
-
 }
