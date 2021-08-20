@@ -33,4 +33,5 @@ if (is_admin()) {
     require_once plugin_dir_path(__FILE__) . 'admin/settings-page.php';
     require_once plugin_dir_path(__FILE__) . 'admin/settings-register.php';
     require_once plugin_dir_path(__FILE__) . 'admin/settings-callbacks.php';
+    require_once plugin_dir_path(__FILE__) . 'admin/settings-validate.php';
 }
