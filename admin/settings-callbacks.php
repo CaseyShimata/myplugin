@@ -4,10 +4,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-function myplugin_callback_validate_options($input){
-    return $input;
-}
-
 function myplugin_callback_section_login(){
     echo '<p>These settings enable you to customize the WP Login screen.</p>';
 }
