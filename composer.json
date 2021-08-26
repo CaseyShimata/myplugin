@@ -1,0 +1,20 @@
+{
+  "name": "CaseyShimata/myplugin",
+  "description":"An example plugin I am altering for Bedrock compatibility.",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "custom"
+  ],
+  "homepage": "https://github.com/CaseyShimata/myplugin",
+  "authors": [
+    {
+      "name": "Casey Shimata",
+      "homepage": "https://github.com/CaseyShimata/myplugin"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.1"
+  }
+}
