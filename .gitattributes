@@ -1,0 +1,26 @@
+/.editorconfig export-ignore
+/.gitattributes export-ignore
+
+# Force Unix newlines
+*.*    text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.js   text eol=lf
+*.json text eol=lf
+*.less text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+
+*.eot binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.pdf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+
+# WordPress Language Files
+*.mo binary
